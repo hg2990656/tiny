@@ -1,0 +1,22 @@
+{
+  "name": "tiny",
+  "version": "1.0.0",
+  "description": "A tool to compress images with tinify API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "compress"
+  ],
+  "bin": {
+    "tiny": "bin/index.js"
+  },
+  "author": "yukijun",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "configstore": "^5.0.1",
+    "tinify": "^1.6.0-beta.2"
+  }
+}
