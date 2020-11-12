@@ -103,7 +103,7 @@ $ tinys config -d <compressDir>
 
 #### Resize
 
-You can resize image according to set resize type, image width, image height config.There are four resize method:
+You can resize image according to set resize type, image width, image height config.There are four resize methods:
 
 ##### scale
 
