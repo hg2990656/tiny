@@ -109,7 +109,7 @@ function compress(argv) {
                 util.printError(`The dest path must be dir when fromPath is dir`)
                 return
             } else if (toPathType === -1) {
-                util.createNewDir(toPath)
+                util.createNewDir(checkDir)
                 toPathType = 1
             }
 
